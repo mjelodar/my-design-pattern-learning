@@ -1,7 +1,7 @@
-public class SimpleOrder extends OrderCreator{
+public class ConditionalOrder extends OrderCreator{
 
-    public SimpleOrder() {
-        System.out.println("i'm a simple order.");
+    public ConditionalOrder() {
+        System.out.println("i'm a conditional order.");
     }
 
     public Order createOrder(){

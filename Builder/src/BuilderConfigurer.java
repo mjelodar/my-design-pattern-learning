@@ -1,8 +1,13 @@
 public class BuilderConfigurer {
     Director director;
-    public Order createOrder(OrderCreator order){
-        director.buildOrder(order);
 
-        return new Order();
+    public BuilderConfigurer(Director director) {
+        this.director = director;
+    }
+
+    public Order createOrder(OrderCreator orderCreator){
+        director.buildOrder(orderCreator);
+
+        return orderCreator.getOrder();
     }
 }

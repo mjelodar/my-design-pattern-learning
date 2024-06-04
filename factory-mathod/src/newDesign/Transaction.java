@@ -1,6 +1,5 @@
 package newDesign;
 
-import newDesign.shipments.Shipment;
 
 import java.util.Date;
 

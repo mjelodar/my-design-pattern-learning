@@ -8,7 +8,7 @@ public class Shipment {
         Transaction transaction = new Transaction();
         transaction.setDestination("kashan");
         transaction.setRequestDate(new Date());
-        Truck truck = new Truck(transaction);
+        oldDesign.Truck truck = new Truck(transaction);
         truck.go();
     }
 }

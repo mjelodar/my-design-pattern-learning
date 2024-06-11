@@ -2,17 +2,17 @@ package before;
 
 public class Action {
     public static void main(String[] args) {
-        Circle redCircle = new RedCircle();
-        redCircle.draw(0, 0, 6);
+        Circle redCircle = new Circle();
+        redCircle.draw(0, 0, 6, "black", true);
 
         System.out.println();
 
-        Square square = new BlueSquare();
-        square.draw(4, 5, 0);
+        Square square = new Square();
+        square.draw(4, 5, 0, "blue", false);
 
         System.out.println();
 
-        Circle yellowCircle = new YellowCircle();
-        yellowCircle.draw(0, 0, 15);
+        Circle yellowCircle = new Circle();
+        yellowCircle.draw(0, 0, 15, "brown", false);
     }
 }

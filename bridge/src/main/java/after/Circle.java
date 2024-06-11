@@ -9,6 +9,7 @@ public class Circle extends Shape{
 
     @Override
     public void draw() {
-        shapeDrawer.drawShape(0,0, radius);
+        System.out.println("this a circle with radius " + radius + " with some specification: ");
+        shapeDrawer.drawShape();
     }
 }

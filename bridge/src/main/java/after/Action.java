@@ -13,5 +13,9 @@ public class Action {
         ShapeDrawer red3DCircleDrawer = new Red3DCircleDrawer();
         Circle red3DCircle = new Circle(10, red3DCircleDrawer);
         red3DCircle.draw();
+
+        ShapeDrawer dottedCircleDrawer = new LineStyleCircleDrawer();
+        Circle dottedCircle = new Circle(50, dottedCircleDrawer);
+        dottedCircle.draw();
     }
 }

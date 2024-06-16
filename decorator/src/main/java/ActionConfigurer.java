@@ -8,8 +8,8 @@ public class ActionConfigurer {
         System.out.println("Enter your option");
         String option = myObj.nextLine();
         Shape circle = new Circle();
-        ShapeDrawer shapeDrawer;
-        circle.draw();
+        ShapeDrawer shapeDrawer = new ShapeDrawer(circle);
+        shapeDrawer.draw();
 
         switch (option){
             case "color":

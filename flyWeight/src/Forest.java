@@ -3,7 +3,6 @@ import java.util.List;
 
 public class Forest {
     List<Tree> treeList;
-    TreesPool treesPool;
     public static Forest forest;
 
     private Forest(List<Tree> treeList) {

@@ -5,6 +5,11 @@ public class ThreeDimention extends ShapeDecorator{
 
     @Override
     public void draw() {
-        System.out.println("dimension = 3");
+        shape.draw();
+        setDimension(4);
+    }
+
+    private void setDimension(int dimension){
+        System.out.println("dimension = " + dimension);
     }
 }
